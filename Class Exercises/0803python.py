@@ -1,13 +1,9 @@
 customerid = input("Enter Customer ID: ")
 
-# typeof = isinstance(customerid, str)
-# print(typeof)
 if customerid.isnumeric():
     customeridi = int(customerid)
 
-# elif customerid := int():
-#    print('Invalid entry. Please enter numerical value.')
-
+# Haven't resolve the case where input is 0
     if customeridi <= 100 and customeridi > 0:
         print('1st')
 
@@ -17,4 +13,4 @@ if customerid.isnumeric():
     elif customeridi > 250:
         print('All reservations taken.')
 
-else :print('Please enter numerical value.')
+else :print('Invalid entry. Please enter numerical value.')
