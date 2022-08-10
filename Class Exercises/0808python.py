@@ -94,7 +94,7 @@ class Pokemon:
             'Poisoned': False,
             'Paraylzed': False
         }
-    def __run(self):
+    def run(self):
         print('You fled the battle.')
 
     def useItem(self, item):
@@ -102,24 +102,26 @@ class Pokemon:
 
 
 Pikachu = Pokemon(40, 'Pikachu', 'electric', 'ground')
-print(Pikachu.hp)
+# print(Pikachu.hp)
 
 Squirtle = Pokemon(50, 'Squirtle', 'electric', ('grass, electric'))
-print(Squirtle.weakness)
+# print(Squirtle.weakness)
 
-Squirtle.run()
-Pikachu.run()
+# Squirtle.run()
+# Pikachu.run()
 
 Pikachu.useItem('potion')
 
 Blaziken = Pokemon(120, 'Blaziken', ('fire', 'fighting'), ('water', 'psychic'))
-print(Blaziken.type[1])
+# print(Blaziken.type[1])
 
 # Inheritance
 # When a child class, takes on the properties of a parent class,
 # we call that inheritance
 # Since Pikachu 
 class Pikachu(Pokemon):
+    # def __init__(self, hitPoints: int, pokeName: str, type: tuple, weakness: tuple):
+    #     super().__init__(hitPoints: int, pokeName: str, type: tuple, weakness: tuple):
     def thunderbolt(self):
         print('%s used Thunderbolt!' % self.name)
         damage = 50
@@ -140,6 +142,7 @@ class Pikachu(Pokemon):
         else:
             self.hp += hp
 
+# Pikachu.super().useItem('Hi-Potion')
 
 class Electrabuzz(Pokemon):
     def thunderbolt(self):
@@ -148,11 +151,5 @@ class Electrabuzz(Pokemon):
 Raichu = Pikachu(100, 'Raichu', ('electric'), ('ground'))
 Raichu.thunderbolt()
 
-Pikachu.run()
 
-# Create a Cat/Dog game, create a class for both the cat and dog. Both animals
-# should have the following properties: breed, weight, fur color, name
-# Each animal will make their own unique sound
-# Cat/Dog class which can do everything that both animals can do, but in its
-# unique twist
 
