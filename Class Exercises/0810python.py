@@ -1,3 +1,4 @@
+import unittest
 
 # firstWord = input("Type in your first word you wish to compare to if it's an anagram: ")
 # secondWord = input("Type in your second word you wish to compare with your first word: ")
@@ -39,3 +40,9 @@ def createDictFromWord(word: str) -> dict:
             strDict[letter] = 1
 
         return strDict
+
+# class AnagramsTests(unittest.TestCase):
+#     def testAnagrams(self):
+#         self.assertEqual(anagram('plane', 'train'), False)
+
+# unittest.main()

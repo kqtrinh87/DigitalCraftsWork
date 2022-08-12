@@ -19,6 +19,6 @@
 # print(message)
 
 vacationSpots = ['Tokyo', 'Paris', 'Washington D.C.', 'Mumbai', 'Cape Town']
-print(vacationSpots)
-vacationSpots.sort()
-print(vacationSpots)
+print('Original List: ' + str(vacationSpots))
+print('Sort List: ' + str(vacationSpots.sort()))
+print('Reserve Sort List: ' + str(vacationSpots.sort()) reverse=True)
