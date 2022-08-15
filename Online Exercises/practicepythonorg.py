@@ -12,13 +12,13 @@ number1 = int(input('Enter 1st number: '))
 number2 = int(input('Enter 2nd number: '))
 
 
-def productOrSum():
+def productOrSum(number1, number2):
     if number1 * number2 <= 1000: # Not working. Why is this wrong?
         print(number1 * number2)
     else:
         print(number1 + number2)
 
-productOrSum()
+productOrSum(number1, number2)
 
 # Solution #1
 # def multiplication_or_sum(num1, num2):
