@@ -1,7 +1,28 @@
+/* Access the basic tags within HTML */
+
 body {
     background-color: lavender;
 }
 
+/* Center and place border around h1 tag that has a div as a parent */
+div > h1 {
+    text-align: center;
+    margin: 50px;
+    border: 3px solid black;
+}
+/* We use the # to access id. An id should be unique, no two elements should
+have the same id */
+
 #loginButton {
     background-color: gold;
+    text-align: center;
+    align-self: center;
+}
+
+/* To style a class we use .className 
+Class*/
+
+.textbox{
+    width: 100px
+    background-color: lightgray ;
 }

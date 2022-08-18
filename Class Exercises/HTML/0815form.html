@@ -13,30 +13,36 @@
 
     <form>
         <fieldset>
-            <legend>User Login</legend>
-            <!-- label your box with header -->
-            <p>
-                <label for="Username">Username</label>
-                <!-- type tells the browser what content will be in the input box. -->
-                <input type="text" name="username" id="username-box" placeholder="Username" />
-            </p>
-            <p>
-                <label for="Password">Password</label>
-                <input type="password" name="password" id="password-box" placeholder="Password" />
-            </p>
-            <p>
-                <a href="https:www.google.com">Forgot your password?</a>
-            </p>
-            <p>
-                <label for="Remeber Me">Remember Me</label>
-                <input type="checkbox" name="remember" id="remember-box" />
-            </p>
-
+            <div>
+                <h1>Spotify</h1>
+            </div>
+            <h1>Music App</h1>
+            <div>
+                <legend>User Login</legend>
+                <!-- label your box with header -->
+                <p>
+                    <label for="Username">Username</label>
+                    <!-- type tells the browser what content will be in the input box. -->
+                    <input type="text" name="username" class="textbox" id="username-box" placeholder="Username" />
+                </p>
+                <p>
+                    <label for="Password">Password</label>
+                    <input type="password" name="password" id="password-box" placeholder="Password" />
+                </p>
+                <p>
+                    <a href="https:www.google.com">Forgot your password?</a>
+                </p>
+                <p>
+                    <label for="Remeber Me">Remember Me</label>
+                    <input type="checkbox" name="remember" id="remember-box" />
+                </p>
         </fieldset>
         <!-- We use the submit for the login button -->
+        <div>
         <input type="submit" id="loginButton" value="Login" />
         <!-- 'type' is to submit input value from box, 'value' is name of button -->
+        </div>
+    </div>
     </form>
 </body>
-
 </html>

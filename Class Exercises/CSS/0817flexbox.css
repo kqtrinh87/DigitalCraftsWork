@@ -1,0 +1,34 @@
+.container {
+    /* Introduces flexbox properties to our class */
+    display: flex;
+    /* padding-right: 15px; */
+    /* margin-right: 10px; */
+    /* Reverses order of contents starting on the right side */
+    /* flex-direction: row-reverse; */
+    /* Wrap all elements ensuring that all items to show and continues to display */
+    /* flex-wrap: wrap; */
+    /* Give space between images, horizontal or vertical */
+    /* justify-content: space-between; */
+    /* align-items: flex-start; */
+    /* Changes the size of an individual div */
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+}
+
+.number1 {
+    flex-grow: 1;
+    border: 1px solid blue;
+}
+
+.number2 {
+    flex-grow: 20;
+    border: 1px solid red;
+}
+
+.number3 {
+    flex-grow: 1;
+    border: 1px solid green;
+}

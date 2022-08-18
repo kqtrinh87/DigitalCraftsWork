@@ -1,0 +1,31 @@
+.wholepage {
+    font-family:'Segoe UI', Tahoma, sans-serif; font-size: 90%;
+    background-color: #f3f2ef;
+}
+
+.section {
+    justify-content: right;
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: #ffffff;;
+    border: 1px solid #e0dfdc;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+}
+
+#analytics {
+
+}
+
+.lighttext  {
+    color:darkslategray;
+    font-size:small;
+    
+}
+
+.showall {
+    justify-content:center;
+    
+}
