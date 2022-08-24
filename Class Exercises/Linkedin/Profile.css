@@ -1,4 +1,25 @@
-.wholepage {
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 600px) {
+    /* For tablets: */
+
+  .section {
+    width: 400px;
+
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+
+    
+}
+
+
+.container-fluid {
     font-family:'Segoe UI', Tahoma, sans-serif; font-size: 90%;
     background-color: #f3f2ef;
 }
@@ -11,16 +32,12 @@
     background-color: #ffffff;;
     border: 1px solid #e0dfdc;
     border-radius: 10px;
-    width: 300px;
+    min-width:100px;
     padding: 20px;
 }
 
-#analytics {
-
-}
-
 .lighttext  {
-    color:darkslategray;
+    color:#979696;
     font-size:small;
     
 }

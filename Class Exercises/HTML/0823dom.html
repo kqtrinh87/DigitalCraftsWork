@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dom</title>
+</head>
+<body>
+    <h1 id=header>DigitalCrafts</h1>
+    <h1 id="nav-list"></h1>
+        <li class="link">Home</li>
+        <li class="link">About Us</li>
+        <li class="link">Products</li>
+    
+        <form>
+            <fieldset>
+                <div>
+                    <h1>Spotify</h1>
+                </div>
+                <h1>Music App</h1>
+                <div>
+                    <legend>User Login</legend>
+                    <!-- label your box with header -->
+                    <p>
+                        <label for="Username">Username</label>
+                        <!-- type tells the browser what content will be in the input box. -->
+                        <input type="text" name="username" class="textbox" id="username-box" placeholder="Username" />
+                    </p>
+                    <p>
+                        <label for="Password">Password</label>
+                        <input type="password" name="password" id="password-box" placeholder="Password" />
+                    </p>
+                    <p>
+                        <a href="https:www.google.com">Forgot your password?</a>
+                    </p>
+                    <p>
+                        <label for="Remeber Me">Remember Me</label>
+                        <input type="checkbox" name="remember" id="remember-box" />
+                    </p>
+            </fieldset>
+            <!-- We use the submit for the login button -->
+            <div>
+            <input type="submit"  onclick="alertUser()" id="loginButton" value="Login" />
+            <!-- 'type' is to submit input value from box, 'value' is name of button -->
+            </div>
+        </div>
+        </form>
+</body>
+</html>
+<script src="../JavaScript/0823dom.js">
+    console.log('Inside our HTML file')
+    const headerElement = document.querySelector('h1');
+    // Assess your document (or your window) and search for an element with h1.
+    const navList = document.getElementById('nav-list');
+    // Assess your document and search for an ID with nav-list
+    console.log(headerElement);
+    console.log(headerElement.innerText);
+
+    const username = document.getElementsByName('username');
+    // Pull input from username inputbox
+    console.log(username);
+    const links = document.getElementsByClassName('link');
+    console.log(links)
+
+    function alertUser() {
+        alert('You have clicked the login button');
+    }
+
+
+</script>
