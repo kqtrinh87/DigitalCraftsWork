@@ -1,0 +1,27 @@
+#teamform {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    justify-content: center;
+}
+
+#submitbutton {
+    text-align: center;
+}
+
+#agreementcheck {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+
+#invalidCheck {
+    text-align: center;
+    justify-content: center;
+}
