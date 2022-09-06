@@ -1,0 +1,31 @@
+.basketball {
+    position: relative;
+    animation: roll 1s 0s ease-in-out 10 alternate-reverse;
+}
+
+.court {
+    border-top: solid black 2px;
+
+
+}
+
+@keyframes roll {
+    to {
+        transform: translateX(50%) translateY(50%)
+    }
+
+    from {
+        left: 0%
+    }
+
+}
+
+
+@keyframes bounce {
+    to {
+        top: 0%
+    }
+    from {
+        top: 80%
+    }
+}

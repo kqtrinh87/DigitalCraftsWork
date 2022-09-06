@@ -5,9 +5,19 @@ function getUserInfo() {
     console.log(`Username: ${username}, Password: ${password}`);
 }
 
+function checkUsername(username) {
+    // Check username valid character input
+    let myRegex = /[A-Za-z]+/
+    return myRegex.test(username)
+}
+
+
 function checkPassword(username, password) {
     let mockDb = new Map();
     mockDb.set('kqtrinh', 'password');
+
+    // Check only
+let myRegex = /[A-Za-z0-9]+/
 }
     // Checking to see the username is in the database
     // Username was not found
