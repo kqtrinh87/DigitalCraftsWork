@@ -24,7 +24,7 @@ class Car:
         print("The car is stopping.")
 
     def reverse(self):
-        print("The car is resversing.")
+        print("The car is reversing.")
     
 class Electrics(Car):
     def __init__(self, curbWeight: int, topSpeed: int, horsepower: int, wheelDrive: str, batteryCapacity: int, drivingRange: int) -> None:
