@@ -1,0 +1,27 @@
+{"level":"info","message":"Welcome to our Pokedex server.","service":"user-service"}
+{"level":"info","message":"Welcome to our Pokedex server.","service":"user-service"}
+{"level":"info","message":"Welcome to our Pokedex server.","service":"user-service"}
+{"level":"info","message":"Welcome to our Pokedex server.","service":"user-service"}
+{"level":"info","message":"Welcome to our Pokedex server.","service":"user-service"}
+{"level":"info","message":"Welcome to our Pokedex server.","service":"user-service"}
+{"level":"info","message":"Welcome to our Pokedex server.","service":"user-service"}
+{"level":"info","message":"Welcome to our Pokedex server.","service":"user-service"}
+{"level":"info","message":"Welcome to our Pokedex server.","service":"user-service"}
+{"level":"info","message":"Welcome to our Pokedex server.","service":"user-service"}
+{"level":"info","message":"Welcome to our Pokedex server.","service":"user-service"}
+{"level":"info","message":"Welcome to our Pokedex server.","service":"user-service"}
+{"level":"info","message":"Welcome to our Pokedex server.","service":"user-service"}
+{"level":"info","message":"Welcome to our Pokedex server.","service":"user-service"}
+{"level":"info","message":"Welcome to our Pokedex server.","service":"user-service"}
+{"level":"info","message":"Welcome to our Pokedex server.","service":"user-service"}
+{"level":"info","message":"Welcome to our Pokedex server.","service":"user-service"}
+{"level":"info","message":"Welcome to our Pokedex server.","service":"user-service"}
+{"level":"info","message":"Welcome to our Pokedex server.","service":"user-service"}
+{"level":"info","message":"Welcome to our Pokedex server.","service":"user-service"}
+{"level":"info","message":{"action":"POST","body":{},"path":"/","time":"2022-09-22T14:23:00.114Z"},"service":"todo-service"}
+{"level":"info","message":{"action":"GET","body":{},"path":"/","time":"2022-09-22T14:23:03.727Z"},"service":"todo-service"}
+{"level":"info","message":{"action":"GET","body":{},"path":"/","time":"2022-09-22T14:43:51.221Z"},"service":"todo-service"}
+{"level":"info","message":{"action":"GET","body":{},"path":"/","time":"2022-09-22T14:47:41.871Z"},"service":"todo-service"}
+{"level":"info","message":{"action":"GET","body":{},"path":"/","time":"2022-09-22T14:47:42.976Z"},"service":"todo-service"}
+{"level":"info","message":{"action":"GET","body":{},"path":"/","time":"2022-09-22T14:47:44.546Z"},"service":"todo-service"}
+{"level":"info","message":{"action":"GET","body":{},"path":"/","time":"2022-09-22T14:48:10.496Z"},"service":"todo-service"}

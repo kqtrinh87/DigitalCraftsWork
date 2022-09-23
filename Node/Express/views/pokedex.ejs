@@ -1,0 +1,14 @@
+<html>
+
+<body>
+    <h2>Your Pokedex</h2>
+    <ul>
+        <!--  USing ejs to display backend data on our frontend html files that are being displayed by the browser -->
+        <% pokedex.forEach(function(pokemon) { %>
+        <li>Name: <%= pokename.name %> HP: <%= pokename.hp %></li> 
+    <% }); %>
+    </ul>
+
+</body>
+
+</html>
